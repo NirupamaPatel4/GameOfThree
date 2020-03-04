@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+    <title>Game of Three</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="home.css" />
+</head>
+
+<body>
+    <div class="col-md-4 col-sm-2 col-xs-2"></div>
+    <div class="col-md-4 col-sm-2 col-xs-2 box">
+        <div class="players-box" style="margin-bottom: 10px;">
+            <ul id="players"></ul>
+        </div>
+        <div class="moves-box">
+            <ul id="moves"></ul>
+        </div>
+    </div>
+    <div class="col-md-4 col-sm-2 col-xs-2"></div>
+    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="home.js"></script>
+</body>
+</html>

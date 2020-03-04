@@ -1,0 +1,46 @@
+.box{
+    margin: 10% 0 10% 0;
+    background: #FFFFFF;
+    padding: 0;
+    width: 400px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.players-box {
+    overflow: auto;
+    width: 100%;
+    height: 100px;
+    word-wrap: break-word;
+    background-color: lightblue;
+}
+
+#players {
+    list-style-type: none;
+    margin: 25px;
+    padding: 0;
+}
+
+#players li {
+    margin-bottom: 5px;
+    padding: 5px 10px;
+}
+
+.moves-box {
+    overflow: auto;
+    width: 100%;
+    height:400px;
+    word-wrap: break-word;
+}
+
+#moves {
+    list-style-type: none;
+    margin: 25px;
+    padding: 0;
+}
+#moves li {
+    margin-bottom: 5px;
+    padding: 5px 10px;
+}
+body {
+    background: #d3d3d3;
+}
