@@ -1,6 +1,6 @@
 # Logs
 /Server/npm-debug.log*
-/Server/.idea/
+/.idea/
 
 # Dependency directories
 /Server/node_modules
